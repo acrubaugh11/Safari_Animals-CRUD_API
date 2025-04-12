@@ -1,0 +1,207 @@
+.main {
+    background-image: url(/images/tree.jpg);
+    background-size: cover;
+    background-position: center 50%;
+    padding-top: 100px;
+    max-width: 100% !important;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+a:hover{
+    text-decoration: none;
+    transform: scale(1.15);
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar {
+    box-shadow: 0 10px 4px rgba(0, 0, 0, 0.2); 
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+    opacity: 1;
+    z-index: 1;
+
+}
+
+.navbar-nav {
+    justify-content: space-around !important;
+    color: black;
+}
+
+div.giraffe{
+    height: 300px;
+    width: 300px;
+    background-image: url(/images/giraffe.jpg) !important;
+    background-size: cover;
+    border: 5px solid black;
+    border-radius: 5px;
+
+}
+.giraffe-text, .elephant-text, .cheetah-text, .rhino-text, .zebra-text, .lion-text {
+    margin-top: 50%;
+    backdrop-filter: invert(90%);
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+}
+
+.new-text {
+    margin-top: 50%;
+    backdrop-filter: invert(90%);
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+}
+.new{
+    height: 300px;
+    width: 300px;
+    background-image: url(/images/new.jpg);
+    background-size: cover;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+.elephant{
+    height: 300px;
+    width: 300px;
+    margin-left: 10% ;
+    background-image: url(/images/elephant.jpg) !important;
+    background-size: cover;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.cheetah {
+    height: 300px;
+    width: 300px;
+    margin-left: 10% !important;
+    background-image: url(/images/cheetah.jpg);
+    background-size: cover;
+    background-position: 50% 55%;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.rhino {
+    height: 300px;
+    width: 300px;
+    background-image: url(/images/rhino.jpg);
+    background-size: cover;
+    background-position: center top;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.zebra {
+    height: 300px;
+    width: 300px;
+    margin-left: 10% !important;
+    background-image: url(/images/zebra.jpg);
+    background-size: cover;
+    background-position: 50% 55%;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.lion {
+    height: 300px;
+    width: 300px;
+    margin-left: 10% !important;
+    background-image: url(/images/lion.jpg);
+    background-size: cover;
+    background-position: center 50%;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.spacing {
+    height: 75px;
+    
+}
+
+.hero {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -5px;
+
+}
+
+.hero h1{
+    width: 400px;
+    align-self: center;
+    padding-bottom: 10px;
+    padding-top: 100px;
+}
+
+.hero h5 {
+    align-self: center;
+    width: 800px;
+}
+
+.left-side{
+    height: 500px;
+    width: 600px;
+    margin-left: 50px;
+    border: 3px solid black;
+    border-right: none;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-image: url(/images/balloon.jpg);
+    background-size: cover;
+}
+
+.right-side{
+    height: 500px;
+    width: 600px;
+    background-color: rgb(240, 224, 190);
+    text-align: center;
+    border: 3px solid black;
+    border-left: none;
+}
+
+.right-side h6{
+    line-height: 2 !important;
+
+}
+
+.detailsl {
+    height: 500px;
+    width: 600px;
+    margin-left: 50px;
+    border: 3px solid black;
+    /* border-right: none; */
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-position: center 10%;
+    background-size: cover;
+}
+
+.detailsr{
+    height: 500px;
+    width: 600px;
+    background-color: rgb(240, 224, 190);
+    text-align: center;
+    border: 3px solid black;
+    border-left: none;
+}
+
+.detailsr li{
+    text-align: left !important;
+    padding: 12px;
+}
